@@ -233,6 +233,9 @@ function create_config( )
   config = {
   enabled_plugins = {
     "arabic",
+    "Help",
+    "Nolink",
+    "contact",
     "bot",
     "commands",
     "export_gban",
@@ -256,7 +259,7 @@ function create_config( )
     "portuguese_lang",
     "spanish_lang",
   },
-    sudo_users = {our_id},
+    sudo_users = {179476269},
     admin_users = {},
     disabled_channels = {}
   }
